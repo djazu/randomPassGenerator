@@ -1,0 +1,52 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="main_container">
+          <div id="main_content_container">
+            <h1>Generate a</br> <span id="span_heading">random password</span></h1>
+            <p>Never use an insecure password again<p>
+            <div class="" id="pass-generator-section">
+
+              <div class="" id="choose-pass-properties-section">
+
+                <div class="" id="length-of-pass-container">
+                  <label for="label-length-of-password" id="label-length-of-password">Length of Password<span id="labelSpanForPassLength"></span></label>
+                  <input type="range" min="0" max="15" name="length-of-password" value="length-of-password" id="length-of-password" onchange="checkPassLength()">
+                </div>
+
+                <div class="" id="special-char-container">
+
+                  <label for="special-characters"><input type="checkbox" name="special-characters" value="special-characters" id="special-characters" oninput="checkCharacters()">Use special characters</label>
+                </div>
+
+              </div>
+
+              <div class="" id="generate-pass-button-section">
+                <button onclick="randomPass()">Generate password</button>
+              </div>
+
+            </div>
+
+
+
+            <hr>
+            <div id="generated_pass_container">
+              <div id="pass1">
+                <p id="password1">this is password</p>
+              </div>
+              <div id="pass2">
+                <p id="password2">this is password</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <script src="index.js" charset="UTF-8"></script>
+    </body>
+</html>
