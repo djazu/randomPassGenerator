@@ -95,22 +95,34 @@ hr{
 **************FLEX**************/
 #main_container{
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-direction: column;
   align-items: center;
 }
 #main_content_container{
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-direction: column;
   justify-content: center;
 }
 
 #generated_pass_container{
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   justify-content: center;
 }
 
 #choose-pass-properties-section{
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   justify-content: space-between;
 }
 
@@ -129,6 +141,9 @@ hr{
 #pass1,#pass2{
   text-align: center;
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-direction: column;
   justify-content: space-around;
   align-items:  center;
